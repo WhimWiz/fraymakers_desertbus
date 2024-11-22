@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "c3c1c861-d0b5-4da3-848a-f0381e146b89",
+  "id": "kalimari",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.3.0"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

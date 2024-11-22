@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "2eb279f0-1218-4323-ad20-b7c6c50e9ab6",
+  "id": "endcutsceneScript",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "PROJECTILE",
+      "version": "0.3.0"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

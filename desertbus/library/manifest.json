@@ -1,0 +1,79 @@
+{
+  "resourceId": "desertbusstage",
+  "content": [{
+    "id": "desertbusstage",
+    "name": "Desert-Bus",
+    "description": "An example stage for Fraymakers.",
+    "type": "stage",
+    "objectStatsId": "stagetemplateStageStats",
+    "scriptId": "stagetemplateScript",
+    "music": [{ "namespace": "local", "resourceId": "desertbusstage", "contentId": "desert" }],
+    "metadata": {
+      "stage":{
+        "hazardVariation": "local::desertbusstage.desertbusstagehazards"
+      },
+      "ui":{
+        "entityId":"menu",
+        "render":{
+          "animation":"full",
+          "animation_hazard":"full_hazard"
+        },
+        "css":{
+          "animation":"css",
+          "animation_hazard":"css_hazard"
+        }
+      }
+    }
+  },{
+    "id": "desertbusstagehazards",
+    "name": "Desert-Bus",
+    "description": "An example stage for Fraymakers.",
+    "type": "stage",
+    "objectStatsId": "stagetemplateStageStats2",
+    "scriptId": "stagetemplateScript2",
+    "music": [{ "namespace": "local", "resourceId": "desertbusstage", "contentId": "lazydays" }, { "namespace": "local", "resourceId": "desertbusstage", "contentId": "fishhits" }, { "namespace": "local", "resourceId": "desertbusstage", "contentId": "fishingvibes" }]
+  },
+  {
+    "id": "endcutscene",
+    "type": "projectile",
+    "objectStatsId": "endcutsceneStats",
+    "animationStatsId": "endcutsceneAnimStats",
+    "scriptId": "endcutsceneScript"
+  },
+  {
+    "id": "desert",
+    "title": "Desert",
+    "artist": "god",
+    "description": "n/a",
+    "type": "music",
+    "audioId": "desert",
+    "loopPoint": 9000
+  },
+  {
+    "id": "fishingvibes",
+    "title": "Fishing Vibes",
+    "artist": "Sonic Frontiers",
+    "description": "n/a",
+    "type": "music",
+    "audioId": "fishing",
+    "loopPoint": 9000
+  },
+  {
+    "id": "fishhits",
+    "title": "And...Fish Hits!",
+    "artist": "Sonic Adventure",
+    "description": "n/a",
+    "type": "music",
+    "audioId": "fishhits",
+    "loopPoint": 9000
+  },
+  {
+    "id": "lazydays",
+    "title": "Lazy Days",
+    "artist": "Sonic Adventure",
+    "description": "n/a",
+    "type": "music",
+    "audioId": "lazydays",
+    "loopPoint": 9000
+  }]
+}

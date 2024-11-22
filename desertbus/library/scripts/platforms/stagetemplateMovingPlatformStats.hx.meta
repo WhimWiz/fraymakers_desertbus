@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "00be8401-7910-401b-b1b6-22af7f52c358",
+  "id": "endcutsceneStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

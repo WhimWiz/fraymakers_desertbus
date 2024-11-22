@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "a0f35e88-cfd5-4f01-b835-b390d9a4956c",
+  "id": "endcutsceneAnimStats",
+  "language": "",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.3.0"
+    }
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

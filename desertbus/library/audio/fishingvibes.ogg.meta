@@ -1,0 +1,15 @@
+{
+  "export": true,
+  "guid": "4aa9462c-7dfb-4894-be98-896491e93c56",
+  "id": "fishing",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.3.0"
+    }
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}
